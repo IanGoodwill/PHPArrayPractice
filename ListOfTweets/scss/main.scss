@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+	background-repeat: no-repeat;
+	background-size: 400% 400%;
+	-webkit-animation: gradientBG 50s ease infinite;
+	        animation: gradientBG 50s ease infinite;
+}
+
+ ul  {
+    list-style: none;
+
+}
+
+.twtcont {
+    display: flex;
+    flex-wrap: nowrap;
+	width: 100%;
+	position: absolute;
+	top: 35%;
+    text-align: center;
+    min-height: 0.5vh;
+}
+h1 {
+	font-weight: 900;
+	width: 100%;
+	text-align: center;
+}
+h2 {
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #212121;
+}
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.twtrcard  {
+	background-color: #fff;
+    text-align: left;
+    border: 3px solid #212121;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    max-height: 150px;
+    h3  {
+        color: #212121;
+    }
+    p  {
+        color: #212121;
+    }
+}
+.twtrcard2  {
+	background-color: #fff;
+    text-align: left;
+    border: 3px solid #212121;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    max-height: 150px;
+    h3  {
+        color: #212121;
+    }
+    p  {
+        color: #212121;
+    }
+}
+.twtrcard3  {
+	background-color: #fff;
+    text-align: left;
+    border: 3px solid #212121;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    max-height: 150px;
+    h3  {
+        color: #212121;
+    }
+    p  {
+        color: #212121;
+    }
+}

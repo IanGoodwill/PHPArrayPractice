@@ -45,6 +45,48 @@
     } 
     ?>
 
+    <section class="twtrcard">
+
+    <h3> <?= $tweets[0]['name'] ?> </h3>
+
+    <p>
+    <?= $tweets[0]['twt1'] ?>
+    </p>
+
+    <p>
+    <?= $tweets[0]['twt2'] ?>
+    </p>
+
+    </section>
+
+    <section class="twtrcard2">
+
+        <h3> <?= $tweets[1]['name'] ?> </h3>
+
+        <p>
+        <?= $tweets[1]['twt1'] ?>
+        </p>
+
+        <p>
+        <?= $tweets[1]['twt2'] ?>
+        </p>
+
+    </section>
+
+    <section class="twtrcard3">
+
+    <h3> <?= $tweets[2]['name'] ?> </h3>
+
+    <p>
+    <?= $tweets[2]['twt1'] ?>
+    </p>
+
+    <p>
+    <?= $tweets[2]['twt2'] ?>
+    </p>
+
+    </section>
+
 </article>
 
 </body>
