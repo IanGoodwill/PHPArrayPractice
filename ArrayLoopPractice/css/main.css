@@ -1,0 +1,66 @@
+/* main.css file */
+body  {
+  background-color: rgb(175, 198, 218);
+  display: grid;
+}
+
+
+.twtrcard {
+    background-color: #fff;
+    text-align: left;
+    border: 3px solid #212121;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    height: auto;
+    font-size: 1rem;
+    justify-self: center;
+
+  }
+  .twtrcard h3 {
+    color: #212121;
+  }
+  .twtrcard p {
+    color: #212121;
+  }
+  
+  .twtrcard {
+    background-color: #fff;
+    text-align: left;
+    border: 3px solid #212121;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    height: auto;
+    font-size: 1rem;
+    justify-self: center;
+
+  }
+  .twtrcard h3 {
+    color: #212121;
+  }
+  .twtrcard p {
+    color: #212121;
+  }
+  
+
+  .twtrcard {
+    background-color: #fff;
+    text-align: left;
+    border: 3px solid #212121;
+    padding: 10px;
+    margin: 10px;
+    width: 33.33%;
+    height: auto;
+    font-size: 1rem;
+    justify-self: center;
+
+  }
+  .twtrcard h3 {
+    color: #212121;
+  }
+  .twtrcard p {
+    color: #212121;
+  }
+  
+
